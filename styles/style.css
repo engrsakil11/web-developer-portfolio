@@ -81,6 +81,7 @@ ul li a{
     text-align: center;
     margin-top: 60px;
     margin-left: 90px;
+    margin-bottom: 50px;
 }
 /* main styles */
 main{
@@ -192,6 +193,50 @@ main{
 
 }
 /* Footer section styles */
-.footer-container{
+.footer{
     display: flex;
+    background-color: #FFF8F3;
+    justify-content: space-around;
+}
+.footer-title{
+    text-align: center;
+    margin-top: 100px;
+    color: rgba(24, 24, 24, 1);
+    font-weight: bold;
+    font-size: 35px;
+}
+.footer-description{
+    color: 474747;
+    width: 530px;
+    font-size: 19px;
+}
+.footer-icon{
+    gap: 50px;
+}
+footer input[type="text"], input[type="email"]{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+.footer-btn{
+    color: #FFFFFF;
+    padding: 18px 39px;
+    background-color: #FD6E0A;
+    font-weight: bold;
+    border: 2px solid #FD6E0A;
+    border-radius: 5px;
+    opacity: 100%;
+}
+.footer-comment-box{
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
 }
